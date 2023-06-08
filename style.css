@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-container{
+  
+     display: flex;
+     background-color: #f4f4f4;
+     /* Always is on the main axis
+     justify-content: end;
+     /* Always is on the cross axis*/
+     /* align-items: end; */
+     /* flex-wrap: wrap; */
+    
+ }
+.item{
+    flex-basis: 300px;
+    height:100px;
+    color: #f4f4f4;
+    background-color: blue;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .item:nth-of-type(1){
+    align-self: start;
+}
+.item:nth-of-type(2){
+    align-self: center;
+}
+.item:nth-of-type(3){
+    align-self: end;
+} */
+
+ /* order properties 
+
+.item:nth-of-type(1){
+    order: 3;
+}
+.item:nth-of-type(2){
+    order: 2;
+}
+.item:nth-of-type(3){
+    order: 1;
+} */
+
+/* Fles-basis */
+
+/* .item:nth-of-type(1){
+    flex-basis: 200px;
+}
+.item:nth-of-type(2){
+    flex-basis: 300px;
+}
+.item:nth-of-type(3){
+    flex-basis: 200px;
+} */
+
+/* Fles-grow-> intire space  */
+
+/* .item:nth-of-type(1){
+    flex-grow: 1;
+}
+.item:nth-of-type(2){
+   flex-grow: 2;
+}
+.item:nth-of-type(3){
+    flex-grow: 1;
+} */
+
+/* Fles-shrink */
+/* 
+.item:nth-of-type(1){
+    flex-shrink: 1;
+}
+.item:nth-of-type(2){
+   flex-shrink: 2;
+}
+.item:nth-of-type(3){
+    flex-shrink: 3;
+} */
+
+/* Felx: 1 0 100px; --> 1(flex-grow) , 0(flex-shrink) , 100px(flex-basis) */
+
+
+
+
